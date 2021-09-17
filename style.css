@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+/* font-family: 'Bebas Neue', cursive; */
+
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+/* font-family: 'Caveat', cursive; */
+
+@import url("https://fonts.googleapis.com/css2?family=Arsenal&display=swap");
+/* font-family: 'Arsenal', sans-serif; */
+
+/* Colours
+FF7 Dark Green: 30, 110, 93
+FF7 Lighter Green: 26, 163, 134
+FF7 Grey: 22, 39, 36 */
+
+body {
+  margin: 0px;
+  background-color: #eceaea;
+}
+
+#navbar {
+  background-color: rgb(22, 39, 26);
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 0px 10px;
+  padding: 10px;
+}
+
+#navbar a {
+  color: white;
+  font-size: 20px;
+}
+
+#navbar a:hover {
+  color: rgb(26, 163, 134);
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+}
+
+h1,
+h2,
+a {
+  font-family: "Bebas Neue", cursive;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 50px;
+  background: -webkit-linear-gradient(
+    45deg,
+    rgb(22, 39, 36),
+    rgb(26, 163, 134)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+p {
+  font-family: "Arsenal", sans-serif;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+}
+
+#frontpage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titleback {
+  background: -webkit-linear-gradient(
+    45deg,
+    rgb(22, 39, 36),
+    rgb(26, 163, 134)
+  );
+  /* -webkit-background-clip: text; */
+  -webkit-text-fill-color: white;
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.characters {
+  width: 800px;
+}
+
+.text {
+  width: 900px;
+  color: dimgray;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: rgb(74, 74, 74, 0.6); */
+  margin: 0px 150px 0px 150px;
+}
+
+q {
+  font-size: 25px;
+  font-family: "Caveat", cursive;
+}
+
+blockquote {
+  font-size: 20px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 900px;
+}
+
+#mainquote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#top {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0px 20px 20px 0px;
+  font-size: 20px;
+}
+
+#top a {
+  color: rgb(30, 110, 93);
+}
+
+#top a:hover {
+  color: rgb(26, 163, 134);
+}
